@@ -1,7 +1,5 @@
 #importig libraries
 import time
-import pandas as pd
-import csv
 import getpass
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
