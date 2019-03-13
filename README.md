@@ -2,8 +2,8 @@
 ## Singhania_for_Gsec_Sports
 
 ## Ensure that 
->you have the latest version of chrome installed in your 
->you are logged in to your facebook account in chrome
+#### You have chrome installed in your laptop
+#### Remove Two factor authentication if you have any attached to your facebook id from the security settings 
 
 ### Download the "chromedriver_win32" file in the repository
 Execute change in directory using
@@ -23,6 +23,8 @@ Execute change in directory using
 
 ```diff
 - run the commenter.py file
+- Enter your facebook id and password when asked for in the terminal
+- #Singhania_for_gsec_sports
 ```
 
 
