@@ -14,10 +14,10 @@ def pipeline(email,password):
     search.send_keys(Keys.RETURN)
 
     singha = driver.find_elements_by_xpath("//input[@placeholder='Search']")[0]
-    singha.send_keys("Aditya Singhania")
+    singha.send_keys("Apruv Gupta")
     singha.send_keys(Keys.RETURN)
 
-    timeline = driver.find_elements_by_xpath("//a[contains(text(), 'Aditya Singhania')]")[0]
+    timeline = driver.find_elements_by_xpath("//a[contains(text(), 'Apurv Gupta')]")[0]
     timeline.click()
 
     SCROLL_PAUSE_TIME = 0.5
@@ -26,7 +26,7 @@ def pipeline(email,password):
     last_height = driver.execute_script("return document.body.scrollHeight")
 
     while True:
-        # Scroll down to bottom
+        # Scroll down t
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
         # Wait to load page
@@ -41,9 +41,10 @@ def pipeline(email,password):
     comment_placeholder = driver.find_elements_by_xpath("//form[@class='commentable_item']")[0]
     comment = comment_placeholder.find_elements_by_xpath("//div[@role='textbox']")
 
-    for i in range(1,len(comment)):
+    for i in range(1,20):
         try:
-            comment[i].send_keys("#Singhania_for_gsec_sports")
+            comment[i].send_keys("#Apurv_for_gsec_sports")
+            time.sleep(random.randint(1,100))
             comment[i].send_keys(Keys.RETURN)
         except:
             pass
