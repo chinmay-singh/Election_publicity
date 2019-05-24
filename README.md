@@ -1,5 +1,5 @@
 # Election_publicity
-## Singhania_for_Gsec_Sports
+## XYZ_for_XYZ
 
 ## Ensure that 
 #### You have chrome installed in your laptop
