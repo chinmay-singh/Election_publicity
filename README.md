@@ -24,7 +24,7 @@ Execute change in directory using
 ```diff
 - run the commenter.py file
 - Enter your facebook id and password when asked for in the terminal
-- #Singhania_for_gsec_sports
+- Change the Comment to be made
 ```
 
 
